@@ -37,12 +37,18 @@ func 평균구하기(_ arr:[Int]) -> Double {
     //let answer = Double(sum / a.count)
     */
 
-    let answer = Double(sum) / Double(arr.count)
+//    let answer = Double(sum) / Double(arr.count)
+//    print(answer)
+//    return answer
+    
+    //위 방법으로했을때 값이 0인경우에 0으로 나누면 에러발생. 근데 사실 배열에 값이 들어가면 분모가 1이 돼서 에러날일이 없는데...
+    var sum2 = arr.reduce(0, +)
 
+    if (sum2 != 0), arr.count != 0 {
+        return Double(sum2) / Double(arr.count)
+    } else {
+        return 0
+    }
     
-    
-    
-    print(answer)
-    
-    return answer
 }
+    

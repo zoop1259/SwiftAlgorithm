@@ -9,15 +9,24 @@ print("Hello, World!")
 //print(핸드폰번호가리기("010-9888-4321"))
 //print(하샤드수(12))
 //print(평균구하기([1,2,3,4,5]))
+//print(클라츠추측(6))
+//print(gcd(12, 3))
+//print(lcm(12, 3))
+//print(최대공약수와최소공배수(12, 3))
+//print(짝수와홀수(4))
+//print(제일작은수제거하기([2,1,3,4]))
+//print(정수제곱근판별(12))
+//print(내림차순으로배치하기(587231))
 
+let a:Int64 = 12345
 
-let a = [0]
-let b = 0
-let c = a.reduce(0, +)
+let b = String(a).sorted(by: >)
+print(b)
 
+let c = String(b)
+print(c)
+//let d = Int(c)!
+//print(d)
 
-if (c != 0),b != 0 {
-    print("hala")
-} else {
-    print("ba")
-}
+var d: [Int] = []
+
