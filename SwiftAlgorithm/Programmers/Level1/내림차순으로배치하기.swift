@@ -1,10 +1,3 @@
-//
-//  내림차순으로배치하기.swift
-//  SwiftAlgorithm
-//
-//  Created by 강대민 on 2022/07/21.
-//
-
 import Foundation
 
 func 내림차순으로배치하기(_ n:Int64) -> Int64 {

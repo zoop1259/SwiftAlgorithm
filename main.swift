@@ -17,16 +17,4 @@ print("Hello, World!")
 //print(제일작은수제거하기([2,1,3,4]))
 //print(정수제곱근판별(12))
 //print(내림차순으로배치하기(587231))
-
-let a:Int64 = 12345
-
-let b = String(a).sorted(by: >)
-print(b)
-
-let c = String(b)
-print(c)
-//let d = Int(c)!
-//print(d)
-
-var d: [Int] = []
-
+//print(자연수뒤집어배열로만들기(8312))

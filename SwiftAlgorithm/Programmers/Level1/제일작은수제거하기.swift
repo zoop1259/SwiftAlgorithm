@@ -1,10 +1,3 @@
-//
-//  제일작은수제거하기.swift
-//  SwiftAlgorithm
-//
-//  Created by 강대민 on 2022/07/21.
-//
-
 import Foundation
 
 func 제일작은수제거하기(_ arr:[Int]) -> [Int] {

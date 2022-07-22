@@ -1,10 +1,3 @@
-//
-//  정수제곱근판별.swift
-//  SwiftAlgorithm
-//
-//  Created by 강대민 on 2022/07/21.
-//
-
 import Foundation
 
 func 정수제곱근판별(_ n:Int64) -> Int64 {
