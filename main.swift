@@ -18,3 +18,10 @@ print("Hello, World!")
 //print(정수제곱근판별(12))
 //print(내림차순으로배치하기(587231))
 //print(자연수뒤집어배열로만들기(8312))
+
+let a = "lloo nn  ll"
+
+let b = a.index(a.startIndex, offsetBy: 7)
+
+
+print
