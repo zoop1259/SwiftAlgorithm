@@ -21,7 +21,8 @@ print("Hello, World!")
 
 let a = "lloo nn  ll"
 
-let b = a.index(a.startIndex, offsetBy: 7)
+for (index, source) in a.enumerated() {
+    print("\(index) : \(source)")
+}
 
 
-print
