@@ -43,6 +43,7 @@
 		C53E2C3A288B23BA00631E43 /* N2525.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E2C39288B23BA00631E43 /* N2525.swift */; };
 		C53E2C3C288B240300631E43 /* N2480.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E2C3B288B240300631E43 /* N2480.swift */; };
 		C53E2C3E288B26AA00631E43 /* 자릿수더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E2C3D288B26AA00631E43 /* 자릿수더하기.swift */; };
+		C53E2C5F289400AF00631E43 /* N10818.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E2C5E289400AF00631E43 /* N10818.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,7 @@
 		C53E2C39288B23BA00631E43 /* N2525.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2525.swift; sourceTree = "<group>"; };
 		C53E2C3B288B240300631E43 /* N2480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2480.swift; sourceTree = "<group>"; };
 		C53E2C3D288B26AA00631E43 /* 자릿수더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "자릿수더하기.swift"; sourceTree = "<group>"; };
+		C53E2C5E289400AF00631E43 /* N10818.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N10818.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		C53E2C10288B1C4A00631E43 /* BaekJoon */ = {
 			isa = PBXGroup;
 			children = (
+				C53E2C5D289400A100631E43 /* Level3 */,
 				C53E2C2E288B21B900631E43 /* Level2 */,
 				C53E2C11288B1D3F00631E43 /* Level1 */,
 			);
@@ -205,6 +208,14 @@
 				C53E2C3B288B240300631E43 /* N2480.swift */,
 			);
 			path = Level2;
+			sourceTree = "<group>";
+		};
+		C53E2C5D289400A100631E43 /* Level3 */ = {
+			isa = PBXGroup;
+			children = (
+				C53E2C5E289400AF00631E43 /* N10818.swift */,
+			);
+			path = Level3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +307,7 @@
 				C53E2C36288B22EA00631E43 /* N14681.swift in Sources */,
 				C53E2C27288B202C00631E43 /* N18108.swift in Sources */,
 				C53E2C3E288B26AA00631E43 /* 자릿수더하기.swift in Sources */,
+				C53E2C5F289400AF00631E43 /* N10818.swift in Sources */,
 				C53E2C17288B1DEF00631E43 /* N10171.swift in Sources */,
 				C53E2C1F288B1EDB00631E43 /* N10998.swift in Sources */,
 				C53E2C0D288913B600631E43 /* 내림차순으로배치하기.swift in Sources */,
