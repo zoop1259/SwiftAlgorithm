@@ -18,11 +18,16 @@ print("Hello, World!")
 //print(정수제곱근판별(12))
 //print(내림차순으로배치하기(587231))
 //print(자연수뒤집어배열로만들기(8312))
+//print(이상한문자만들기(asd asdf asdfg))
+//print(시저암호("abc", 1))
 
-let a = "lloo nn  ll"
+let alphabets = "abcdefghijklmnopqrstuvwxyz".map { $0 }
+    
 
-for (index, source) in a.enumerated() {
-    print("\(index) : \(source)")
-}
+//return String(s.map {
+//        guard let index = alphabets.firstIndex(of: Character($0.lowercased())) else { return $0 }
+//        let letter = alphabets[(index + n) % alphabets.count]
+//        return $0.isUppercase ? Character(letter.uppercased()) : letter
+//    })
 
 
