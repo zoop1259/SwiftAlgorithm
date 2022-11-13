@@ -36,6 +36,8 @@ func solution(_ age:Int) -> String {
     
     let str = String(age)
     
+
+    
     var replace = str.replacingOccurrences(of: "0", with: "a")
     .replacingOccurrences(of: "1", with: "b")
     .replacingOccurrences(of: "2", with: "c")
