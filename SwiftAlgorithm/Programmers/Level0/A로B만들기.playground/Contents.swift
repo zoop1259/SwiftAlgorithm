@@ -43,3 +43,8 @@ if a.count == 0 {
     print("맞음")
 }
 */
+
+var array3 = [1, 2, 3, 3]
+let arr3 = array3.filter { str in arr3.contains(str) }
+
+//unc solution(_ n: Int) -> Int { (1...n).filter { i in (1...i).filter { i % $0 == 0 }.count > 2 }.count }
