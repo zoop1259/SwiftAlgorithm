@@ -1,25 +1,22 @@
-import UIKit
+import Foundation
 
-var n = 420
-var div = 2
-var arr = [Int]()
+func solution(_ n:Int) -> [Int] {
+    var num = n
+    var arr = [Int]()
 
-while n != 0 {
-        
-    if n % div == 0 {
-        n = n / div
-        arr.append(div)
-    } else {
-        div += 1
-        
-        n / div
-        
+for i in stride(from: 2, to: num, by: 1) {
+    while num % i == 0 {
+        num /= i
+        if arr.contains(i) == false {
+            arr.append(i)
+        }
     }
-    
-    
-    
 }
-
-print(arr)
-
-print(n % div)
+    
+if num != 1 {
+    arr.append(num)
+}
+    
+    
+    return arr
+}
