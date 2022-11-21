@@ -219,6 +219,27 @@
 			<key>orderHint</key>
 			<integer>77</integer>
 		</dict>
+		<key>구슬을나누는경우의수 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>96</integer>
+		</dict>
+		<key>구슬을나누는경우의수 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>97</integer>
+		</dict>
+		<key>구슬을나누는경우의수 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>95</integer>
+		</dict>
 		<key>나머지구하기 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -491,6 +512,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>55</integer>
+		</dict>
+		<key>문자열계산하기 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>93</integer>
+		</dict>
+		<key>문자열계산하기 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>94</integer>
+		</dict>
+		<key>문자열계산하기 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>92</integer>
 		</dict>
 		<key>문자열뒤집기 (Playground).xcscheme</key>
 		<dict>
@@ -772,6 +814,27 @@
 			<key>orderHint</key>
 			<integer>41</integer>
 		</dict>
+		<key>숨어있는숫자의덧셈 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>84</integer>
+		</dict>
+		<key>숨어있는숫자의덧셈 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>85</integer>
+		</dict>
+		<key>숨어있는숫자의덧셈 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>83</integer>
+		</dict>
 		<key>숨어있는숫자의덧셈1 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -919,6 +982,27 @@
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
+		<key>영어가싫어요 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>87</integer>
+		</dict>
+		<key>영어가싫어요 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>88</integer>
+		</dict>
+		<key>영어가싫어요 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>86</integer>
+		</dict>
 		<key>옹알이 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -939,6 +1023,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>50</integer>
+		</dict>
+		<key>외계어사전 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>99</integer>
+		</dict>
+		<key>외계어사전 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>100</integer>
+		</dict>
+		<key>외계어사전 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>98</integer>
 		</dict>
 		<key>외계행성의나이 (Playground) 1.xcscheme</key>
 		<dict>
@@ -1086,6 +1191,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>27</integer>
+		</dict>
+		<key>종이자르기 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>90</integer>
+		</dict>
+		<key>종이자르기 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>91</integer>
+		</dict>
+		<key>종이자르기 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>89</integer>
 		</dict>
 		<key>주사위의개수 (Playground) 1.xcscheme</key>
 		<dict>
