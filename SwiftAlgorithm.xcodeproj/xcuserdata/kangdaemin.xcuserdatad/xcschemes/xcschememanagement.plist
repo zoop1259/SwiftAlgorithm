@@ -1276,6 +1276,27 @@
 			<key>orderHint</key>
 			<integer>81</integer>
 		</dict>
+		<key>저주의숫자3 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>89</integer>
+		</dict>
+		<key>저주의숫자3 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>90</integer>
+		</dict>
+		<key>저주의숫자3 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>88</integer>
+		</dict>
 		<key>점의위치구하기 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
