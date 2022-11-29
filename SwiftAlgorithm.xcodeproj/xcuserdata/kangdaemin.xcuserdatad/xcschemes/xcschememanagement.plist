@@ -25,6 +25,27 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>OX퀴즈 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>101</integer>
+		</dict>
+		<key>OX퀴즈 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>102</integer>
+		</dict>
+		<key>OX퀴즈 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>100</integer>
+		</dict>
 		<key>SwiftAlgorithm.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -197,6 +218,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>15</integer>
+		</dict>
+		<key>겹치는선분의길이 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>110</integer>
+		</dict>
+		<key>겹치는선분의길이 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>111</integer>
+		</dict>
+		<key>겹치는선분의길이 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>109</integer>
 		</dict>
 		<key>공던지기 (Playground) 1.xcscheme</key>
 		<dict>
@@ -813,6 +855,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>78</integer>
+		</dict>
+		<key>분수의덧셈 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>104</integer>
+		</dict>
+		<key>분수의덧셈 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>105</integer>
+		</dict>
+		<key>분수의덧셈 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>103</integer>
 		</dict>
 		<key>삼각형의완성조건 (Playground) 1.xcscheme</key>
 		<dict>
@@ -1716,6 +1779,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>48</integer>
+		</dict>
+		<key>특이한정렬 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>107</integer>
+		</dict>
+		<key>특이한정렬 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>108</integer>
+		</dict>
+		<key>특이한정렬 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>106</integer>
 		</dict>
 		<key>특정문자제거하기 (Playground) 1.xcscheme</key>
 		<dict>
