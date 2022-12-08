@@ -1,52 +1,61 @@
 import UIKit
 
 func solution(_ number:Int, _ limit:Int, _ power:Int) -> Int {
-    var answer: Int = 0
-
-    for num in 1...number {
-        let powerOfNum: Int = getPower(of: num)
-        
-        if powerOfNum > limit {
-            answer += power
+    var arr = [Int]()
+    var pow = 0
+    
+    for i in 1...number {
+        if i == 1 {
+            pow = 1
+        } else if i == 2 {
+            pow = 2
+        } else if i == 3 {
+            pow = 2 //3까지는 기본적으로 약수가 2개니까.
         } else {
-            answer += powerOfNum
-        }
-    }
-    
-    return answer
-}
-
-// 테스트 11-16, 18, 24, 25 시간 초과.
-// getPower(of:) 메소드의 알고리즘을 간략화 하니 시간 초과된 테스트가 모두 실패가 되었다.(시간 초과는 아니라는 뜻.)
-// -> 약수 구하는 알고리즘의 시간 복잡도의 문제라고 판단.
-
-func getPower(of num: Int) -> Int {
-    var power: Int = 0
-    
-    if num == 1 {
-        power = 1
-    } else if num == 2 {
-        power = 2
-    } else if num == 3 {
-        power = 2
-    } else {
-        for i in 1...Int(sqrt(Double(num))) {
-            if num % i == 0 {
-                if (i * i) == num {
-                    power += 1
-                } else {
-                    power += 2
+            pow = 0
+            for j in 1...Int(sqrt(Double(i))) {
+                if i % j == 0 {
+                    if j * j == i {
+                        pow += 1
+                    } else {
+                        pow += 2
+                    }
                 }
             }
         }
+        if pow > limit {
+            arr.append(power)
+        } else {
+            arr.append(pow)
+        }
     }
-    
-    return power
+    print(arr)
+    return arr.reduce(0, +)
 }
 
 print(solution(10, 3, 2))
 
+//맘에드는 답.
+import Foundation
 
+func solution2(_ number:Int, _ limit:Int, _ power:Int) -> Int {
+    var attack = [Int](repeating: 0, count: number+1)
+
+    for i in 1...number {
+        var c = i
+
+        while c <= number {
+            attack[c] += 1
+            c += i
+        }
+    }
+    attack = attack.map { $0 > limit ? power : $0 }
+    return attack.reduce(0, +)
+}
+
+
+//삽질들
+// 테스트 11-16, 18, 24, 25 시간 초과.
 //시간초과 이것 나름 1/2로 줄긴했지만 여전히..
 //func solution(_ number:Int, _ limit:Int, _ power:Int) -> Int {
 //    var num = [Int]()
