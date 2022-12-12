@@ -1654,6 +1654,27 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>옹알이2 (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>136</integer>
+		</dict>
+		<key>옹알이2 (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>137</integer>
+		</dict>
+		<key>옹알이2 (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>135</integer>
+		</dict>
 		<key>외계어사전 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
