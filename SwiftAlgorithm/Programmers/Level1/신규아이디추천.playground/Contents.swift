@@ -122,7 +122,6 @@ if a.count <= 2 {
 }
 
 print(a)
-
 /*
 //1.소문자로 변환.
 func solution(_ new_id:String) -> String {
