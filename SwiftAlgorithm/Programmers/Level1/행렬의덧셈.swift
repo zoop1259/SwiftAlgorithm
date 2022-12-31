@@ -20,4 +20,3 @@ func 행렬의덧셈(_ arr1:[[Int]], _ arr2:[[Int]]) 
     
     return zip(arr1, arr2).map{zip($0,$1).map{$0+$1}}
 }
-
