@@ -2,20 +2,19 @@ import UIKit
 
 func solution(_ brown:Int, _ yellow:Int) -> [Int] {
     let sum = brown + yellow
-    var a = 0
-    if brown == yellow {
-        a = brown / 3
-    } else {
-        a = sum / 3
+    var x = Int()
+    var y = Int()
+    for i in 1...sum{
+        if sum%i == 0{
+            x = sum/i
+            y = i
+        }
+        if (x-2)*(y-2) == yellow {
+            break
+        }
     }
-    var b = 0
-    
-    while a * b != sum {
-        b += 1
-    }
-    
-    print([a,b])
-    return [a,b]
+    return [x,y]
 }
+
 
 solution(10, 2)
