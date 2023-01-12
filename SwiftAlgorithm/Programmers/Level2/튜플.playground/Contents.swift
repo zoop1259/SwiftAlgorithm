@@ -20,9 +20,21 @@ func solution(_ s:String) -> [Int] {
     for element in arr {
         countDictionary[element] = (countDictionary[element] ?? 0) + 1
     }
+    print(countDictionary)
     let sortedArr = countDictionary.sorted { $0.value > $1.value }.map { $0.key }
     
     return sortedArr
+}
+
+//좀 더 간단하게 할 수 있다.
+func solution2(_ s:String) -> [Int] {
+    var components = [Int: Int]()
+
+    s.split { !$0.isNumber }.map { Int(String($0))! }.forEach {
+        components[$0, default: 0] += 1
+    }
+
+    return components.sorted { $0.value > $1.value }.map { $0.key }
 }
 
 //solution("{{2},{2,1},{2,1,3},{2,1,3,4}}")
