@@ -10,15 +10,15 @@ func solution(_ s:String) -> Int {
     var stack = [Character]()
     
     for _ in 0..<s.count {
+        //스택 초기화
         stack.removeAll()
         
         for i in ss {
+            //우선 처음은 비어있을테니 값을 넣어주고. remove하다가 비어있으면 또 추가한다.
             if stack.isEmpty {
                 stack.append(i)
             } else {
-                
                 if i == ")" {
-                    //print(stack)
                     if stack.last == "(" {
                         stack.removeLast()
                     } else {
@@ -42,10 +42,12 @@ func solution(_ s:String) -> Int {
             }
         }
 
+        //스택이 비어있으면 값 증가.
         if stack.isEmpty {
             res += 1
         }
 
+        //회전.
         if let before = ss.first {
             ss.append(before)
         }
