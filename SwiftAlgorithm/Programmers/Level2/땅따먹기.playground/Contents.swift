@@ -2,7 +2,6 @@ import UIKit
 print(1)
 
 func solution(_ land:[[Int]]) -> Int{
-    var answer = 0
     var land = land
     for i in 0..<(land.count-1) { //행이 제한되어있으므로.
         land[i+1][0] += max(land[i][1], land[i][2], land[i][3])
