@@ -22,6 +22,23 @@ solution(80, [[80,20],[50,40],[30,10]])
 //solution(40, [[40, 20], [10, 10], [10, 10], [10, 10], [10, 10]])
 //solution(40, [[40, 20], [10, 10], [10, 10]])
 
+/*
+ func solution(_ k: Int, _ dungeons: [[Int]]) -> Int {
+     return explore(k, dungeons, 0)
+ }
+
+ private func explore(_ k: Int, _ dungeons: [[Int]], _ depth: Int) -> Int {
+     return dungeons.map { dungeon in
+         k >= dungeon[0] ? explore(k - dungeon[1], dungeons.filter { elem in dungeon != elem }, depth + 1) : depth
+     }.max() ?? depth
+ }
+ 
+ */
+
+
+
+
+
 /* 반례를 찾기 힘들어 이방법은 실패.
  func solution(_ k:Int, _ dungeons:[[Int]]) -> Int {
      // 안되면 x를 집어넣고 x가 포함되어있으면 카운팅 시키지 않는걸로?
