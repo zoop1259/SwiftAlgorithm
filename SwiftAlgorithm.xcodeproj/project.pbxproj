@@ -71,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C51A6F78297E2ECA0020733A /* QuickSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = QuickSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C528833E293664F60065FFB6 /* 음양더하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "음양더하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C539BD3E295BFCF10034C2B0 /* N개의최소공배수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "N개의최소공배수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C53E2BE72886915900631E43 /* SwiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -602,6 +603,7 @@
 				C59F99D429756E6D003489AF /* DFS:BFS.playground */,
 				C5E2CE2729792469000E86AD /* Tree.playground */,
 				C5E2CE282979681F000E86AD /* 동적계획법.playground */,
+				C51A6F78297E2ECA0020733A /* QuickSort.playground */,
 			);
 			path = Test;
 			sourceTree = "<group>";
