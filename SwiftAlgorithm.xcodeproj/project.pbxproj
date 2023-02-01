@@ -275,6 +275,8 @@
 		C5C33CDB2927C42C00456537 /* k의개수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "k의개수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5C33CDC2928A2C900456537 /* 두수의나눗셈.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "두수의나눗셈.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5C33CDE2928AA4100456537 /* 팩토리얼.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "팩토리얼.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5D9CA55298950F200AF757C /* 가장긴팰린드롬.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "가장긴팰린드롬.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5D9CA56298A35E500AF757C /* 배열자르기n^2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "배열자르기n^2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5DF451D296A895F00EEB686 /* 타겟넘버.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "타겟넘버.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5DF4560296D95A800EEB686 /* 튜플.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "튜플.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5E2CE2729792469000E86AD /* Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -339,6 +341,7 @@
 		C53E2BF12886917100631E43 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				C5D9CA54298950D700AF757C /* Level3 */,
 				C57809E62965E8FD00C216C4 /* Level4 */,
 				C5F150A62959A187003C3622 /* Level5 */,
 				C5F1509B2956EB12003C3622 /* Level2 */,
@@ -594,6 +597,14 @@
 			path = Level0;
 			sourceTree = "<group>";
 		};
+		C5D9CA54298950D700AF757C /* Level3 */ = {
+			isa = PBXGroup;
+			children = (
+				C5D9CA55298950F200AF757C /* 가장긴팰린드롬.playground */,
+			);
+			path = Level3;
+			sourceTree = "<group>";
+		};
 		C5F150982956E458003C3622 /* Test */ = {
 			isa = PBXGroup;
 			children = (
@@ -642,6 +653,7 @@
 				C59F99D12974A29E003489AF /* 할인행사.playground */,
 				C59F99D22974E43A003489AF /* 피로도.playground */,
 				C59F99D329752C01003489AF /* 연속부분수열합의개수.playground */,
+				C5D9CA56298A35E500AF757C /* 배열자르기n^2.playground */,
 			);
 			path = Level2;
 			sourceTree = "<group>";
