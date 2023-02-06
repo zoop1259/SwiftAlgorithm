@@ -71,6 +71,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C517E64E298FD28D0048C920 /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C517E64F298FE3720048C920 /* DoublyLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DoublyLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C51A6F78297E2ECA0020733A /* QuickSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = QuickSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C528833E293664F60065FFB6 /* 음양더하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "음양더하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C539BD3E295BFCF10034C2B0 /* N개의최소공배수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "N개의최소공배수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -161,6 +163,9 @@
 		C58E3DAD291E5A0F005606E7 /* 외계행성의나이.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "외계행성의나이.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C58E3DAE291E689C005606E7 /* 암호해독.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "암호해독.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C58E3DAF291E6DC8005606E7 /* 인덱스바꾸기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "인덱스바꾸기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5915C5229909B0200BE749A /* 둘만의암호.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "둘만의암호.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5915C532990ABBA00BE749A /* 호텔대실.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "호텔대실.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5915C542990CFC800BE749A /* 이진탐색트리.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "이진탐색트리.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C59954532898051C00D0D617 /* N2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2739.swift; sourceTree = "<group>"; };
 		C59954552898057200D0D617 /* N10950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N10950.swift; sourceTree = "<group>"; };
 		C5995457289805C300D0D617 /* N8393.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N8393.swift; sourceTree = "<group>"; };
@@ -234,6 +239,8 @@
 		C5A8CBA3295E90110096E2E6 /* 스킬트리.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "스킬트리.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5A8CBA4295EAD010096E2E6 /* 행렬의곱셈.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "행렬의곱셈.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5A8CBA5295EB1180096E2E6 /* 행렬1차.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "행렬1차.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5AAB4D5298D5D25003C8997 /* 완전탐색.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "완전탐색.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5AAB4D6298D5E45003C8997 /* 이진탐색.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "이진탐색.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5AF6E762928B1CB002BAC87 /* 가까운수찾기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "가까운수찾기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5AF6E772928BB0E002BAC87 /* 한번만등장한문자.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "한번만등장한문자.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5AF6E782928C814002BAC87 /* 소인수분해.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "소인수분해.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -416,6 +423,7 @@
 				C5F1509629569A93003C3622 /* 실패율.playground */,
 				C5F150972956D694003C3622 /* 크레인인형뽑기게임.playground */,
 				C5A8CBA5295EB1180096E2E6 /* 행렬1차.playground */,
+				C5915C5229909B0200BE749A /* 둘만의암호.playground */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -615,6 +623,11 @@
 				C5E2CE2729792469000E86AD /* Tree.playground */,
 				C5E2CE282979681F000E86AD /* 동적계획법.playground */,
 				C51A6F78297E2ECA0020733A /* QuickSort.playground */,
+				C5AAB4D5298D5D25003C8997 /* 완전탐색.playground */,
+				C5AAB4D6298D5E45003C8997 /* 이진탐색.playground */,
+				C517E64E298FD28D0048C920 /* LinkedList.playground */,
+				C517E64F298FE3720048C920 /* DoublyLinkedList.playground */,
+				C5915C542990CFC800BE749A /* 이진탐색트리.playground */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -654,6 +667,7 @@
 				C59F99D22974E43A003489AF /* 피로도.playground */,
 				C59F99D329752C01003489AF /* 연속부분수열합의개수.playground */,
 				C5D9CA56298A35E500AF757C /* 배열자르기n^2.playground */,
+				C5915C532990ABBA00BE749A /* 호텔대실.playground */,
 			);
 			path = Level2;
 			sourceTree = "<group>";

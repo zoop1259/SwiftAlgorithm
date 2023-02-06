@@ -18,3 +18,9 @@ func fibo(_ n: Int) -> Int{
 }
 
 fibo(10)
+
+//정석 피보나치 구하기;;
+func fibo2(_ n: Int) -> Int {
+    if n <= 1 { return n }
+    return fibo2(n - 1) + fibo2(n - 2)
+}
