@@ -1,5 +1,14 @@
 import Foundation
 
+/*
+ 대표 유형: 경로탐색, 네트워크, 조합 만들기 등등.
+ DFS 구현 방법: 재귀함수
+ BFS 구현 방법: 큐 / 연결리스트
+ 
+ 
+ */
+
+
 func dfs(v: Int){
     
     visited[v] = true
@@ -26,3 +35,5 @@ let graph = [
 
 var visited = [Bool](repeating: false, count: 9)
 dfs(v: 8)
+
+
