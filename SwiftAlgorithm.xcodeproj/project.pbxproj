@@ -118,6 +118,8 @@
 		C53E2C8228964BAF00631E43 /* 약수의합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "약수의합.swift"; sourceTree = "<group>"; };
 		C53E2C842896523A00631E43 /* 시저암호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "시저암호.swift"; sourceTree = "<group>"; };
 		C55E7375299DB21E00F3DD5D /* 삼각달팽이.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "삼각달팽이.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C55E7376299E9D0300F3DD5D /* Hash.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hash.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C55E7377299EC55A00F3DD5D /* 모음사전.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "모음사전.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C56F2D9929390853007C441E /* 나누어떨어지는숫자배열.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "나누어떨어지는숫자배열.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C56F2D9A29390F7B007C441E /* 없는숫자더하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "없는숫자더하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C56F2D9B29391088007C441E /* 가운데글자가져오기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "가운데글자가져오기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -634,6 +636,7 @@
 				C5915C542990CFC800BE749A /* 이진탐색트리.playground */,
 				C5915C55299260C800BE749A /* 재귀함수.playground */,
 				C5B2DC9E2995963D00D85291 /* DP.playground */,
+				C55E7376299E9D0300F3DD5D /* Hash.playground */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -676,6 +679,7 @@
 				C5915C532990ABBA00BE749A /* 호텔대실.playground */,
 				C5B2DC9F2995A8D300D85291 /* 기능개발.playground */,
 				C55E7375299DB21E00F3DD5D /* 삼각달팽이.playground */,
+				C55E7377299EC55A00F3DD5D /* 모음사전.playground */,
 			);
 			path = Level2;
 			sourceTree = "<group>";

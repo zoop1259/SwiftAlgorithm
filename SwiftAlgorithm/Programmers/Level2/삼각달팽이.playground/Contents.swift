@@ -1,6 +1,6 @@
 import UIKit
 
-print( 1 % 3 )
+print( (33-18) * 600 + 5000 )
 
 func solution(_ n:Int) -> [Int] {
   var arr = [[Int]](repeating: [Int](repeating: 0, count: n), count: n)
@@ -59,7 +59,7 @@ solution(4)
  그다음 right는 3번
  그다음 up은 2번
  그 다음 다시 down 1번
- 그리고 이므로 빠져나온다.
+ 그리고 0이므로 빠져나온다.
  
  1
  23
