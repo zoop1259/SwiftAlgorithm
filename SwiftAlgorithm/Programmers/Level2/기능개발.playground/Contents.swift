@@ -1,13 +1,5 @@
 import UIKit
 
-var a = [1,2,3]
-
-while !a.isEmpty {
-  a.removeFirst()
-  print(a)
-}
-
-
 func solution(_ progresses:[Int], _ speeds:[Int]) -> [Int] {
   var arr = [Int]()
   
