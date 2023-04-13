@@ -5,6 +5,7 @@ import UIKit
 let rawData = "0123"
 let data = rawData.map { String($0) }
 var visit = [Bool](repeating: false, count: data.count)
+print(visit)
 
 dfs(data: data, curInd: 0, curCnt: 0, targetCnt: 2, answer: "")
 
